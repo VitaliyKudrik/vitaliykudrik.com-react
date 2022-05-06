@@ -1,0 +1,30 @@
+.section__container-contact {
+  max-width: 65%;
+  margin: 0 auto -15rem auto;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.contact__container {
+  font-size: 4rem;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+}
+
+.section__container-contact-mobile {
+  max-width: 100%;
+  margin: 0 auto -15rem auto;
+  text-align: center;
+  font-size: 1.25rem;
+  text-decoration: none;
+  padding-bottom: 15%;
+}
+
+.contact__container-mobile {
+  font-size: 4rem;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+}

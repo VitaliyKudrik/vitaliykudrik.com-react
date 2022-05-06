@@ -1,0 +1,55 @@
+/* Intro statement and photo  */
+.intro {
+  font-size: 2.5rem;
+  margin-top: 45%;
+  margin-left: 20%;
+  font-weight: bold;
+}
+
+.intro-img {
+  margin-top: 10%;
+  width: 90%;
+}
+
+.intro__img-big {
+  margin-top: 30%;
+  margin-bottom: 6%;
+}
+
+.intro__img-mobile {
+  margin-top: 50%;
+  margin-bottom: 6%;
+}
+
+.intro__img-tiny {
+  margin-top: 50%;
+  margin-bottom: 6%;
+}
+
+.intro-desktop {
+  font-size: 6rem;
+  margin-top: 40%;
+  margin-left: -5%;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.intro-desktop-big {
+  font-size: 6rem;
+  margin-top: 70%;
+  margin-left: -20%;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.intro-mobile-small {
+  font-size: 1.5rem;
+  margin-top: 50%;
+  margin-left: 20%;
+  font-weight: bold;
+}
+
+.span__one {
+  margin-left: 15%;
+  font-size: 2rem;
+}

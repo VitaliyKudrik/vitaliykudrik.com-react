@@ -1,0 +1,94 @@
+/* GENERAL ELEMENTS for about me page*/
+.section {
+  margin-top: 5%;
+  padding: 5rem 3rem;
+  padding-bottom: 15rem;
+  border-top: 1px solid #ddd;
+  position: relative;
+  transition: transform 1s, opacity 1s;
+}
+
+#section--1 {
+  margin-bottom: -35%;
+}
+#section--2 {
+  margin-top: 40%;
+}
+
+/* These styles are for about me layouts on different sized webpages */
+/* Desktop section styles */
+.section__organizer-desktop {
+  font-size: 2rem;
+  text-align: left;
+  padding-top: 1%;
+  border-top: 2px solid #ddd;
+  font-weight: bold;
+}
+
+.section__container-desktop {
+  max-width: 65%;
+  margin: 0 auto -15rem auto;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.section__description-desktop {
+  margin-top: 2.5%;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: rgb(68, 67, 67);
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+/* Mobile section styles */
+.section__organizer-mobile {
+  margin-top: 5%;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1%;
+  border-top: 2px solid #ddd;
+  font-weight: bold;
+}
+
+.section__container-mobile {
+  margin-top: -20%;
+  max-width: 100%;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.section__description-mobile {
+  margin-top: 2.5%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(68, 67, 67);
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+/* Tiny Mobile section styles */
+.section__organizer-tiny {
+  margin-top: 5%;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 1%;
+  border-top: 2px solid #ddd;
+  font-weight: bold;
+}
+
+.section__container-tiny {
+  margin-top: -20%;
+  max-width: 100%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.section__description-tiny {
+  margin-top: 2.5%;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgb(68, 67, 67);
+  margin-bottom: 1rem;
+  text-align: left;
+}

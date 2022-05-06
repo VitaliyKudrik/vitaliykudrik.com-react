@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "High Tower Text", Calibri;
+  background-color: #f4f4f4;
+}
+
+.nav_bar {
+  font-size: 1.65rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.nav-link {
+  color: black;
+}
+
+#content-desktop {
+  display: block;
+}
+
+#content-desktop-big {
+  display: block;
+}
+
+#content-mobile {
+  display: none;
+}
+#content-mobile-small {
+  display: none;
+}
+
+@media screen and (min-width: 1921px) {
+  #content-desktop {
+    display: none;
+  }
+  #content-desktop-big {
+    display: block;
+  }
+  #content-mobile {
+    display: none;
+  }
+  #content-mobile-small {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1920px) {
+  #content-desktop {
+    display: block;
+  }
+  #content-desktop-big {
+    display: none;
+  }
+  #content-mobile {
+    display: none;
+  }
+  #content-mobile-small {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 1024px) {
+  #content-desktop {
+    display: none;
+  }
+  #content-desktop-big {
+    display: none;
+  }
+  #content-mobile {
+    display: block;
+  }
+  #content-mobile-small {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #content-desktop {
+    display: none;
+  }
+  #content-desktop-big {
+    display: none;
+  }
+  #content-mobile {
+    display: none;
+  }
+  #content-mobile-small {
+    display: block;
+  }
+}
